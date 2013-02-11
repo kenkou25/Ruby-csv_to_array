@@ -17,7 +17,7 @@ csv_data = new CsvToArray('FilePath')
 <pre>
 data.rows.each do |row|
   row.each do |col|
-    col
+    p col
   end
 end
 </pre>
