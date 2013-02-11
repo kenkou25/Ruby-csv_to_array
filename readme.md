@@ -6,17 +6,26 @@ CSVを配列に変換
 
 ## 使い方
 
-csv_data = new CsvToArray('FilePath')
+インスタンスの引数にファイルパスかファイルオブジェクトを渡す
 
+<pre>
+csv_data = new CsvToArray('FilePath')
+</pre>
+
+インスタンスの`rows`フィールドに配列の配列形式で格納される
+
+<pre>
 data.rows.each do |row|
   row.each do |col|
     col
   end
 end
+</pre>
 
 ## help me
 
-testの書き方がよくわからない状態に
+テストのやり方が変？
+アドバイスお願いします
 
 ## 以上
 Git Ruby 学習中
