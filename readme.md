@@ -15,7 +15,7 @@ csv_data = new CsvToArray('FilePath')
 インスタンスの`rows`フィールドに配列の配列形式で格納される
 
 <pre>
-data.rows.each do |row|
+csv_data.rows.each do |row|
   row.each do |col|
     p col
   end
