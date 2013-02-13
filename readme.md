@@ -1,4 +1,4 @@
-# csv into array
+﻿# csv into array
 
 CSVを配列に変換
 
@@ -9,6 +9,8 @@ CSVを配列に変換
 インスタンスの引数にファイルパスかファイルオブジェクトを渡す
 
 <pre>
+require 'csv_to_array'
+
 csv_data = new CsvToArray('FilePath')
 </pre>
 
