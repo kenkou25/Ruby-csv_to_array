@@ -24,7 +24,7 @@ csv_data.rows.each do |row|
 end
 </pre>
 
-## help me
+## Umm
 
 テストのやり方が変？
 アドバイスお願いします
